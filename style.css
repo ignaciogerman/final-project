@@ -13,7 +13,7 @@ a {
 }
 
 #hero{
-    background-image: url(ignacio.jpg) no-repeat center center/cover;
+    background-image: url(ignacio.jpg) no-repeat center center/cover !important;
     height: 100vh;
     display: flex;
     flex-direction: column;
