@@ -12,7 +12,7 @@ a {
     color: #fff;
 }
 
-.hero{
+#hero{
     background-image: url(ignacio.jpg) no-repeat center center/cover;
     height: 100vh;
     display: flex;
