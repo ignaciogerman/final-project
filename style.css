@@ -1,0 +1,104 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #98626276;
+    background: #19194b0c;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+header {
+    background: url('ignacio.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-bottom: 30px;
+}
+
+header nav ul li a {
+    font-size: 16px;
+    color: #fff;
+    border-bottom: 2px solid transparent;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+header nav ul li a:hover {
+    border-bottom: 2px solid #007bff;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.cta {
+    background: #007bff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+.cta:hover {
+    background: #0056b3;
+}
+
+/* Section Styles */
+.section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background: #1146873b;
+    padding: 20px;
+    border-radius: 10px;
+    width: 250px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.icon {
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background: #16213e;
+    text-align: center;
+    padding: 20px;
+}
