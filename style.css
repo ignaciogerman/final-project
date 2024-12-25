@@ -1,11 +1,11 @@
 /* General Styles */
-body {
+ /*body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #fcf9f9a3;
     background-color: #1a1a2e;
-}
+}*/
 
 a {
     text-decoration: none;
@@ -135,3 +135,72 @@ footer {
     text-align: center;
     padding: 20px;
 }
+
+/* Smooth Section Appearances */
+.section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.section.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Modern Color Scheme */
+:root {
+    --primary-color: #0d6efd; /* Blue */
+    --secondary-color: #6c757d; /* Gray */
+    --background-color: #121212; /* Dark Background */
+    --accent-color: #198754; /* Green */
+    --text-color: #ffffff; /* White */
+    --hover-color: #ff5722; /* Orange */
+}
+
+/* General Styling */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    overflow-x: hidden;
+}
+
+/* Section Headers */
+.section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2.5rem;
+    color: var(--primary-color);
+}
+
+/* Service Icons */
+.service-icon {
+    font-size: 3rem;
+    color: var(--accent-color);
+    margin-bottom: 10px;
+}
+
+/* Transitions */
+a, button {
+    transition: all 0.3s ease-in-out;
+}
+
+a:hover, button:hover {
+    color: var(--hover-color);
+    transform: scale(1.05);
+}
+
+/* Footer Links */
+.contact-icons a {
+    color: var(--primary-color);
+    margin: 0 10px;
+    font-size: 1.5rem;
+    transition: color 0.3s ease;
+}
+
+.contact-icons a:hover {
+    color: var(--hover-color);
+}
+
