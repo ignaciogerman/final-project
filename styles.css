@@ -130,3 +130,38 @@ form button {
 form button:hover {
     background-color: #145c32;
 }
+
+/* Floating Animation - Initial State */
+.section {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+/* Floating Animation - Triggered State */
+.section.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Extra Floating Effects for Child Elements */
+.cards .card, .services-grid .service, .projects-grid .project {
+    opacity: 0;
+    transform: translateY(30px);
+    transition: opacity 0.8s ease, transform 0.8s ease;
+}
+
+.cards .card.fade-in, .services-grid .service.fade-in, .projects-grid .project.fade-in {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+/* Smooth Floating Animation for Individual Cards */
+.cards .card {
+    transition-delay: calc(var(--delay) * 0.2s);
+}
+
+.services-grid .service, .projects-grid .project {
+    transition-delay: calc(var(--delay) * 0.3s);
+}
+
