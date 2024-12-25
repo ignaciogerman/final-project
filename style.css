@@ -1,11 +1,11 @@
 /* General Styles */
- /*body {
+ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     color: #fcf9f9a3;
     background-color: #1a1a2e;
-}*/
+}
 
 a {
     text-decoration: none;
@@ -159,7 +159,7 @@ footer {
 }
 
 /* General Styling */
-body {
+/*body {
     margin: 0;
     font-family: 'Poppins', sans-serif;
     background-color: var(--background-color);
@@ -168,12 +168,12 @@ body {
 }
 
 /* Section Headers */
-.section h2 {
+/*.section h2 {
     text-align: center;
     margin-bottom: 20px;
     font-size: 2.5rem;
     color: var(--primary-color);
-}
+}*/
 
 /* Service Icons */
 .service-icon {
