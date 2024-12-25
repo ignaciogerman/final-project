@@ -31,7 +31,7 @@ a {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(120, 118, 168, 0.5);
     z-index: 1;
 }
 
@@ -152,7 +152,7 @@ footer {
 :root {
     --primary-color: #0d6efd; /* Blue */
     --secondary-color: #6c757d; /* Gray */
-    --background-color: #121212; /* Dark Background */
+    --background-color: #274456; /* Dark Background */
     --accent-color: #198754; /* Green */
     --text-color: #ffffff; /* White */
     --hover-color: #ff5722; /* Orange */
